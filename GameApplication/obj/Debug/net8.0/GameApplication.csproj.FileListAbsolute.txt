@@ -1,0 +1,14 @@
+/Users/guzelganieva/Projects/GameApplication/GameApplication/bin/Debug/net8.0/GameApplication
+/Users/guzelganieva/Projects/GameApplication/GameApplication/bin/Debug/net8.0/GameApplication.deps.json
+/Users/guzelganieva/Projects/GameApplication/GameApplication/bin/Debug/net8.0/GameApplication.runtimeconfig.json
+/Users/guzelganieva/Projects/GameApplication/GameApplication/bin/Debug/net8.0/GameApplication.dll
+/Users/guzelganieva/Projects/GameApplication/GameApplication/bin/Debug/net8.0/GameApplication.pdb
+/Users/guzelganieva/Projects/GameApplication/GameApplication/obj/Debug/net8.0/GameApplication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/guzelganieva/Projects/GameApplication/GameApplication/obj/Debug/net8.0/GameApplication.AssemblyInfoInputs.cache
+/Users/guzelganieva/Projects/GameApplication/GameApplication/obj/Debug/net8.0/GameApplication.AssemblyInfo.cs
+/Users/guzelganieva/Projects/GameApplication/GameApplication/obj/Debug/net8.0/GameApplication.csproj.CoreCompileInputs.cache
+/Users/guzelganieva/Projects/GameApplication/GameApplication/obj/Debug/net8.0/GameApplication.dll
+/Users/guzelganieva/Projects/GameApplication/GameApplication/obj/Debug/net8.0/refint/GameApplication.dll
+/Users/guzelganieva/Projects/GameApplication/GameApplication/obj/Debug/net8.0/GameApplication.pdb
+/Users/guzelganieva/Projects/GameApplication/GameApplication/obj/Debug/net8.0/GameApplication.genruntimeconfig.cache
+/Users/guzelganieva/Projects/GameApplication/GameApplication/obj/Debug/net8.0/ref/GameApplication.dll
