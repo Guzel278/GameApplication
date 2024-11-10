@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/guzelganieva/Projects/GameApplication/GameApplication/GameApplication.csproj",
+      "projectUniqueName": "/Users/guzelganieva/Documents/GameApplication/GameApplication/GameApplication.csproj",
       "projectName": "GameApplication",
-      "projectPath": "/Users/guzelganieva/Projects/GameApplication/GameApplication/GameApplication.csproj",
+      "projectPath": "/Users/guzelganieva/Documents/GameApplication/GameApplication/GameApplication.csproj",
       "packagesPath": "/Users/guzelganieva/.nuget/packages/",
-      "outputPath": "/Users/guzelganieva/Projects/GameApplication/GameApplication/obj/",
+      "outputPath": "/Users/guzelganieva/Documents/GameApplication/GameApplication/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/guzelganieva/.nuget/NuGet/NuGet.Config"
