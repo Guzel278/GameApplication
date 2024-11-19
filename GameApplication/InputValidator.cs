@@ -8,7 +8,7 @@ namespace GameApplication
             bool isValid = int.TryParse(input, out number) && number >= min && number <= max;
             if (!isValid)
             {
-                Console.WriteLine($"Введите число в диапазоне от {min} до {max}.");
+                Console.WriteLine($"Write number from {min} to {max}.");
             }
             return isValid;
         }
