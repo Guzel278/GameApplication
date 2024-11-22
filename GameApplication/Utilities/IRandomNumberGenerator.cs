@@ -1,5 +1,5 @@
 ﻿using System;
-namespace GameApplication
+namespace GameApplication.Utilities
 {
 	public interface IRandomNumberGenerator
 	{

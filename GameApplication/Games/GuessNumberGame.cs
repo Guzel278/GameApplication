@@ -1,19 +1,8 @@
-﻿namespace GameApplication
+﻿using GameApplication.Utilities;
+using GameApplication.Interaction;
+
+namespace GameApplication.Games
 {
-    // Интерфейс взаимодействия с пользователем
-    public interface IUserInteraction
-    {
-        void WriteMessage(string message);
-        string ReadInput();
-    }
-
-    // Реализация взаимодействия через консоль
-    public class ConsoleUserInteraction : IUserInteraction
-    {
-        public void WriteMessage(string message) => Console.WriteLine(message);
-        public string ReadInput() => Console.ReadLine();
-    }
-
     public class GuessNumberGame : IGame
     {
         private readonly IRandomNumberGenerator _randomNumberGenerator;
@@ -38,7 +27,7 @@
         {
             _targetNumber = _randomNumberGenerator.Generate(_settings.MinRange, _settings.MaxRange);
             _userInteraction.WriteMessage($"Game started! Guess number from {_settings.MinRange} to {_settings.MaxRange}. " +
-                $"You have {_settings.MaxAttempts} attempts.");
+                                          $"You have {_settings.MaxAttempts} attempts.");
 
             for (int attempt = 1; attempt <= _settings.MaxAttempts; attempt++)
             {
@@ -49,18 +38,17 @@
                 {
                     if (guessedNumber == _targetNumber)
                     {
-                        _userInteraction.WriteMessage("Congratulations! You guess number.");
+                        _userInteraction.WriteMessage("Congratulations! You guessed the number.");
                         return;
                     }
 
                     _userInteraction.WriteMessage(guessedNumber < _targetNumber
-                        ? "The number guessed is higher."
-                        : "The number guessed is less.");
+                        ? "The number is higher."
+                        : "The number is lower.");
                 }
             }
 
-            _userInteraction.WriteMessage($"You have exhausted all attempts. The number you were trying to guess was: {_targetNumber}.");
+            _userInteraction.WriteMessage($"You have exhausted all attempts. The correct number was: {_targetNumber}.");
         }
     }
 }
-
